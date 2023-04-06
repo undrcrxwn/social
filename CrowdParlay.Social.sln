@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{340CE817-E3FB-4753-94AA-E5BFB13E6F6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrowdParlay.Social.Api", "src\CrowdParlay.Social.Api\CrowdParlay.Social.Api.csproj", "{1C0DE505-4898-4FB4-A5AA-C01630770F79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrowdParlay.Social.Domain", "src\CrowdParlay.Social.Domain\CrowdParlay.Social.Domain.csproj", "{1B849F3A-49BF-4547-9091-4B2107E5B1A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrowdParlay.Social.Application", "src\CrowdParlay.Social.Application\CrowdParlay.Social.Application.csproj", "{34501CA3-78D7-4AAC-9B47-219F1C51E075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrowdParlay.Social.Infrastructure", "src\CrowdParlay.Social.Infrastructure\CrowdParlay.Social.Infrastructure.csproj", "{3AD90CC0-9858-4164-ADA7-335EB4677495}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C0DE505-4898-4FB4-A5AA-C01630770F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0DE505-4898-4FB4-A5AA-C01630770F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0DE505-4898-4FB4-A5AA-C01630770F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0DE505-4898-4FB4-A5AA-C01630770F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B849F3A-49BF-4547-9091-4B2107E5B1A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B849F3A-49BF-4547-9091-4B2107E5B1A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B849F3A-49BF-4547-9091-4B2107E5B1A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B849F3A-49BF-4547-9091-4B2107E5B1A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34501CA3-78D7-4AAC-9B47-219F1C51E075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34501CA3-78D7-4AAC-9B47-219F1C51E075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34501CA3-78D7-4AAC-9B47-219F1C51E075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34501CA3-78D7-4AAC-9B47-219F1C51E075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD90CC0-9858-4164-ADA7-335EB4677495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD90CC0-9858-4164-ADA7-335EB4677495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD90CC0-9858-4164-ADA7-335EB4677495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD90CC0-9858-4164-ADA7-335EB4677495}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C0DE505-4898-4FB4-A5AA-C01630770F79} = {340CE817-E3FB-4753-94AA-E5BFB13E6F6A}
+		{1B849F3A-49BF-4547-9091-4B2107E5B1A1} = {340CE817-E3FB-4753-94AA-E5BFB13E6F6A}
+		{34501CA3-78D7-4AAC-9B47-219F1C51E075} = {340CE817-E3FB-4753-94AA-E5BFB13E6F6A}
+		{3AD90CC0-9858-4164-ADA7-335EB4677495} = {340CE817-E3FB-4753-94AA-E5BFB13E6F6A}
+	EndGlobalSection
+EndGlobal
